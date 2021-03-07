@@ -1,7 +1,6 @@
 ---
 
-- src: ssh://git@github.com:Shweta217/team-city-first-test-project.git
+- src: https://github.com/Shweta217/team-city-first-test-project.git
 #- src: git+git@github.com:Shweta217/team-city-first-test-project.git
   version: main
   name: test-role
-  sscm: git
