@@ -2,4 +2,6 @@
 # tasks file for abc
 
 - name: import testing role
-  import_role: testing
+  import_role:
+    name: testing
+  tags: first-test
