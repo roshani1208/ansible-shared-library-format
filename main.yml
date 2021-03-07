@@ -1,5 +1,5 @@
 ---
-- name: import 2nd repo role
+- name: running local
   hosts: localhost
   gather_facts: false
   roles:
@@ -13,5 +13,5 @@
   tasks:
     - name: import role tetsing one
       import_role:
-        name: testing-role
+        name: roles/testing-role
   tags: second-test
