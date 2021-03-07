@@ -9,7 +9,8 @@ pipeline {
       
       stage('Run playbook') { 
         steps{
-            sh 'ansible-playbook main.yml --tags "first-test,second-test" -vvv'
+            sh 'ansible-playbook main.yml --tags "first-test" -vvv'
+            sh 'ansible-playbook main.yml --tags "second-test" -vvv'
             }
         }
     }
