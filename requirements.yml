@@ -1,3 +1,6 @@
-- src: git+https://github.com/Shweta217/team-city-first-test-project.git
+---
+
+#- src: git+https://github.com/Shweta217/team-city-first-test-project.git
+- src: git@github.com:Shweta217/team-city-first-test-project.git
   version: main
   name: test-role
