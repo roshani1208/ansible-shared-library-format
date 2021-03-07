@@ -1,0 +1,7 @@
+---
+- name: import 2nd repo role
+  hosts: localhost
+  gather_facts: false
+  roles:
+    - testing_role
+  tags: first-test
