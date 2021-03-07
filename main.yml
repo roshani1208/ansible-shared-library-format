@@ -2,6 +2,10 @@
 - name: running local
   hosts: localhost
   gather_facts: false
-  roles:
-    - testing-role
+  tasks:
+    - name: testing  task
+      import_role:
+        name: testing-role
+  #roles:
+    #- testing-role
   tags: first-test
