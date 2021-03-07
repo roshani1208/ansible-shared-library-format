@@ -1,7 +1,0 @@
----
-# tasks file for abc
-
-- name: testing
-  import_role:
-    name: testing-role
-  
