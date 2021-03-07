@@ -5,13 +5,3 @@
   roles:
     - abc
   tags: first-test
-
-
-- name: import 2nd repo role
-  hosts: localhost
-  gather_facts: false
-  tasks:
-    - name: import role tetsing one
-      import_role:
-        name: roles/testing-role
-  tags: second-test
