@@ -1,6 +1,8 @@
 ---
 # tasks file for abc
 - name: import testing role
-  import_role:
-    name: testing-role
+  shell: |
+               echo "nothing to do"
+  #import_role:
+    #name: testing-role
   
