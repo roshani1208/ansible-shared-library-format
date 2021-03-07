@@ -3,5 +3,5 @@
   hosts: localhost
   gather_facts: false
   roles:
-    - testing_role
+    - test-role
   tags: first-test
