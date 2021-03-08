@@ -1,0 +1,14 @@
+---
+# tasks file for test-role
+
+- name: test role test task
+  shell: |
+           echo "hello"
+  delegate_to: localhost
+  register: op
+  
+- name: debug
+  debug:
+    msg: "output is: {{op}}"
+  delegate_to: localhost
+   

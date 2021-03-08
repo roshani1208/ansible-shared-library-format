@@ -1,6 +1,6 @@
 ---
 
-- src: https://github.com/Shweta217/team-city-first-test-project.git
+- src: https://github.com/Shweta217/ansible2.git
 #- src: git+git@github.com:Shweta217/team-city-first-test-project.git
   version: main
-  name: testing-role
+  name: role-download
