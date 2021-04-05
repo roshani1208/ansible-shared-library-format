@@ -3,6 +3,6 @@
   hosts: localhost
   gather_facts: false
   roles:
-    - roles/role-download
+    - roles/role-download/test-role
     #- roles/test-role
   tags: first-test
