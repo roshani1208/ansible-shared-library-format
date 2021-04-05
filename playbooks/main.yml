@@ -4,5 +4,5 @@
   gather_facts: false
   roles:
     - roles/shared-roles/test-role
-    #- roles/test-role
+    - roles/shared-roles/sample-role
   tags: first-test
