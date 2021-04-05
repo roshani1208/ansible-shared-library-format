@@ -1,5 +1,6 @@
 ---
 
-- src: https://github.com/Shweta217/ansible2.git
-  version: main
-  name: role-download
+- src: https://github.com/Shweta217/shared-library-ansible-roles.git
+  version: master
+  #name: role-download
+  name: test-role
