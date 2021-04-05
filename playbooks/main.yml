@@ -1,5 +1,5 @@
 ---
-- name: running local
+- name: instal shared lib roles and use them local
   hosts: localhost
   gather_facts: false
   roles:
